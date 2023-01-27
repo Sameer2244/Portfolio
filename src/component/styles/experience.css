@@ -1,0 +1,108 @@
+.experience-container {
+    padding: 2.5rem 0;
+}
+
+.experience-inner-container {
+    width: 70vw;
+    margin: auto;
+}
+
+.experience-title {
+    color: #222;
+    background-color: #F3EFE0;
+    width: fit-content;
+    padding: 0.5rem 4rem 0.5rem 1rem;
+    border: 1px solid #222;
+    box-shadow: 4px 4px 0 0 #000;
+}
+
+.experience-title h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.experience-sidebar {
+    width: 0.2rem;
+    background-color: #F3EFE0;
+}
+
+.experience-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience-info-container {
+    display: flex;
+    flex: 0.4;
+    justify-content: flex-start;
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.experience-timeline-item {
+    cursor: pointer;
+    margin: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    color: #F3EFE0;
+    border: 1px solid #F3EFE0;
+    transition: 0.5s;
+
+}
+
+.experience-summary {
+    flex: 1;
+    border: 2px solid #F3EFE0;
+    display: flex;
+    align-items: center;
+    color: #F3EFE0;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+}
+
+.active {
+    color: #222;
+    background-color: #F3EFE0;
+    border: 1px solid #222;
+}
+
+.shadow {
+    box-shadow: 4px 4px 0 0 #000;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .experience-container {
+        padding: 2rem 0rem;
+    }
+    .experience-inner-container{
+        width: 100vw;
+    }
+    .experience-sidebar {
+        width: 0rem;
+        background-color: #F3EFE0;
+    }
+    .experience-timeline-container{
+        width: 90vw;
+    }
+    .experience-timeline-item {
+        cursor: pointer;
+        width: 100%;
+        margin: 1rem 0rem;
+        padding: 0.5rem 1rem;
+        font-weight: 500;
+        border: 1px solid #F3EFE0;
+        transition: 0.5s;
+    }
+    .experience-summary {
+        flex: 1;
+        border: 2px solid #F3EFE0;
+        display: flex;
+        align-items: center;
+        color: #F3EFE0;
+        margin: 1rem 0rem;
+        padding: 1rem 0rem;
+    }
+    
+}
