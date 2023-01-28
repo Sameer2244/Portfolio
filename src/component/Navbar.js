@@ -29,8 +29,8 @@ export default function Navbar() {
                     <a href='#home'>HOME</a>
                     <a href='#about'>ABOUT</a>
                     <a href='#experience'>EXPERIENCE</a>
-                    <a>PROJECTS</a>
-                    <a>CONTACT</a>
+                    <a href='#projects'>PROJECTS</a>
+                    <a href='#contact'>CONTACT</a>
                 </div> :
                     <>
                         <div style={mobilenavbar ? { width: '100vw', height: '100vh' } : { width: '100vw', height: '0vh' }} className={'mobile-navbar-links'}>
@@ -43,8 +43,8 @@ export default function Navbar() {
                                 <a href='#home' onClick={() => { setmobilenavbar(false) }}>HOME</a>
                                 <a href='#about' onClick={() => { setmobilenavbar(false) }}>ABOUT</a>
                                 <a href='#experience' onClick={() => { setmobilenavbar(false) }}>EXPERIENCE</a>
-                                <a>PROJECTS</a>
-                                <a>CONTACT</a>
+                                <a href='#projects'>PROJECTS</a>
+                                <a href='#contact'>CONTACT</a>
                             </div>
 
                         </div>
