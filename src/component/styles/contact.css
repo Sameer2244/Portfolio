@@ -82,3 +82,23 @@ form{
     font-weight: 500;
     cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+
+    .contact-inner-container img{
+        width: 20rem;
+        height: auto;
+    }
+    .contact-form input {
+        width: 18rem;
+        height: 2rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    .contact-form textarea{
+        width: 18rem;
+        height: 7rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    
+}

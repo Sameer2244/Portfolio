@@ -27,7 +27,7 @@ export default function Home() {
             style={{ background: '#F3EFE0',boxShadow: '4px 4px 0 0 #000' }}
           />
           {/* <h1>SAMEER KADAM</h1> */}
-          <p style={showInfo ? {opacity:'1'}:{}}>FRONT END DEVELOPER</p>
+          <p style={showInfo ? {opacity:'1'}:{}}>REACT DEVELOPER</p>
           <p style={showInfo ? {opacity:'1', width: "23.5rem"}:{ width: "23.5rem" }}>Hi! I’m Sameer, and Welcome to my website</p>
           <div className="buttons">
             <a style={showInfo ? {opacity:'1'}:{opacity:'0'}} className="btn contact">Contact</a>

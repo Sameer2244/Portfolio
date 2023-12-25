@@ -13,8 +13,8 @@ export default function PersonalProjects() {
                     <SmallProjectCard source="./Images/project2.png">Quiz web application</SmallProjectCard>
                     <SmallProjectCard source="./Images/project3.png">Wordle clone</SmallProjectCard>
                     <SmallProjectCard source="./Images/project4.png">Weather web application</SmallProjectCard>
-                    <SmallProjectCard source="./Images/project56.png">RealTime Chat application</SmallProjectCard>
-                    <SmallProjectCard source="./Images/project56.png">Ecommerce Website</SmallProjectCard>
+                    {/* <SmallProjectCard source="./Images/project56.png">RealTime Chat application</SmallProjectCard> */}
+                    {/* <SmallProjectCard source="./Images/project56.png">Ecommerce Website</SmallProjectCard> */}
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ export default function ProjectsHandled() {
                     <ProjectCard projectinfo={'A web application with multiple pages for displaying data, designed for educational institutions.'}
                         benefits={['Frond end development', 'Testing/Debugging', '']} rank={'#03'}
                     >React Dashboard</ProjectCard>
-                    <ProjectCard projectinfo={'A block coding Web app that teaches basic programming concepts'}
+                    <ProjectCard projectinfo={'Various AR & VR Applications using Unity3D'}
                         benefits={['3D modeling', 'UI/UX', 'Application programming']} rank={'#04'}
                     >AR & VR Apps</ProjectCard>
                 </div>
